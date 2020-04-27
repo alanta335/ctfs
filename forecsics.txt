@@ -1,0 +1,28 @@
+forensic
+
+1 do hex dump to find data or flag or information that are hidden
+
+2 if a pdf is encripted decript it with a password which can be found from some where
+it can be decripted with online pdf decripter
+
+3 we can use binwalk tool extract data from images
+binwalk -D 'png image:png' file_name     this code is to extract a image hidden in an image
+
+4 there may be data hidden in the meta data(data of image eg camera name which the picture was taken or location) the meta data can be extracted by
+useing an online meta data extracter
+
+5 we can use binwalk to extract all filr=e from an image useing the command
+binwalk --extract --dd=".*" file_name
+
+6 if we can not open a file it may be of different format (eg jpng can be a data file)
+it can be found useing the command
+file 'file_name'
+if it is a data file use the command to open it
+strings file_name   or strings -n string_length file_name
+
+7 after extraction if some files are not showing use the command
+ls -al
+
+8 to find git commit push . which are the changes done to a file useing git version use the command
+git log    			to find git commit id 
+git show id_number   		to find the changes done during that commit
