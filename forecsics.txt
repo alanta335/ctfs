@@ -1,5 +1,7 @@
 forensic
 
+            IMAGE
+ 
 1 do hex dump to find data or flag or information that are hidden
 
 2 if a pdf is encripted decript it with a password which can be found from some where
@@ -26,3 +28,10 @@ ls -al
 8 to find git commit push . which are the changes done to a file useing git version use the command
 git log    			to find git commit id 
 git show id_number   		to find the changes done during that commit
+
+9 some times the flag may be in th final extracted image it self (like open picture in a photo veiwer)
+
+		network data package
+1 data packet can be opened useing wireshark
+2 search http in the filter is found in
+the http post section package we will able to find the password but it may be encode to decode go to base 64 online decorder
