@@ -772,3 +772,14 @@ when the page is loaded the web browser current page will be hooked
  sudo service apache2 stop
 
 file location var / www/index.html
+
+git add filename
+git commit -m ""
+git push
+
+
+
+## useing metersploit beginner guid  
+https://medium.com/@CyberOPS.LittleDog/tryhackme-rp-metasploit-a270355e4640
+
+###
