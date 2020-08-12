@@ -1,0 +1,24 @@
+Can you convert the number 85 (base 10) to binary (base 2)?  
+
+python program>>>>>>>>>>>
+
+
+# Python program to convert decimal to binary 
+	
+# Function to convert Decimal number 
+# to Binary number 
+def decimalToBinary(n): 
+	return bin(n).replace("0b", "") 
+	
+# Driver code 
+if __name__ == '__main__':
+	print(decimalToBinary(a)) 
+	
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+85 = 1010101
+
+flag{1010101}

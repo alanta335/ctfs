@@ -1,0 +1,29 @@
+Time to test your Web skills. Trust me, you don't have to be spiderman to get this one.
+
+'''
+May the Source be with you!!
+flag format : picoCTF{}
+'''
+
+***Challege Statement***
+
+Someone tipped the inspector off. Wonder who his source was..
+https://2019shell1.picoctf.com/problem/11196/
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+by inspecting the element i have found some thing commented out in the html file
+>>>>>>>Html is neat. Anyways have 1/3 of the flag: picoCTF{tru3_d3
+by inspecting the element i have found some thing commented out in the js file
+>>>>>>/* Javascript sure is neat. Anyways part 3/3 of the flag: _lucky?9df7e69a} */
+by inspecting the element i have found some thing commented out in the css file
+>>>>>>/* cyrillic-ext */
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+flag = picoCTF{tru3_d3cyrillic-ext_lucky?9df7e69a}
+
+

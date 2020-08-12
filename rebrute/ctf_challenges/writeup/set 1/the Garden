@@ -1,0 +1,46 @@
+
+This is the first step into the world of steganography. Careful, the floors 
+might be slippery.
+
+'''
+
+***Challenge Statement***
+
+2020 surely has taken a toll on all of us. I guess it's fair to say we are all hanging by the string.
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>binwalk --extract --dd=".*" garden.jpg
+
+2 file are extracted
+
+1.  0
+2. 17E
+
+>>>>>file 0
+0: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 2999x2249, components 3
+
+
+>>>>file 17E
+17E: data
+
+
+so the 17E is data lets extract it...
+
+>>>>strings 17E
+jc#k
+=7g&
+mjx/
+s\]|."Ue
+\qZf
+Here is a flag "flag{13more_than_m33ts_the_3y31e0af5C7}"
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+flag = flag{13more_than_m33ts_the_3y31e0af5C7}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
