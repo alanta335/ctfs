@@ -19,11 +19,11 @@ by inspecting the element i have found some thing commented out in the html file
 by inspecting the element i have found some thing commented out in the js file
 >>>>>>/* Javascript sure is neat. Anyways part 3/3 of the flag: _lucky?9df7e69a} */
 by inspecting the element i have found some thing commented out in the css file
->>>>>>/* cyrillic-ext */
+>>>>>>t3ct1ve_0r_ju5t
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-flag = picoCTF{tru3_d3cyrillic-ext_lucky?9df7e69a}
+flag = picoCTF{tru3_d3t3ct1ve_0r_ju5t_lucky?9df7e69a}
 
 

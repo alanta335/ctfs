@@ -13,6 +13,9 @@ If I told you that they were talking about 0x75, what would you hear in ascii?
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 (hexadecimal) 0x75 = u (ascii)
+so they are talking about me 
+
+converting valuable to hex i here 76616c7561626c65
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-flag = flag{you}
+flag = flag{76616c7561626c65}
