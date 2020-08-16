@@ -1,0 +1,15 @@
+GoBuster flag	Description
+-e	Print the full URLs in your console
+-u	The target URL
+-w	Path to your wordlist
+-U and -P	Username and Password for Basic Auth
+-p <x>	Proxy to use for requests
+-c <http cookies>	Specify a cookie for simulating your auth
+
+
+
+To get started, you will need a wordlist for GoBuster 
+(which will be used to quickly go through the wordlist to identify if there is a public directory available. 
+If you are using Kali Linux you can find many wordlists under /usr/share/wordlists.
+
+Now lets run GoBuster with a wordlist: gobuster dir -u http://<ip>:3333 -w <word list location>
